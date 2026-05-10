@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KNM Academy — Mobile Gaming Studio</title>
+  <meta name="description" content="KNM Academy — Studio de développement Android. Découvrez TchekCard, le jeu de cartes stratégique multijoueur." />
+  <meta name="author" content="KNM Academy" />
+  <meta property="og:title" content="KNM Academy — Mobile Gaming Studio" />
+  <meta property="og:description" content="Applications mobiles premium — Android" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mkamdem.dev" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎴</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">🎴</div>
+        KNM Academy
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#apps">Applications</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="privacy-policy.html">Confidentialité</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <div class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ───────────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Left — Text -->
+        <div>
+          <div class="hero-eyebrow">
+            <span class="badge badge-gold">🎮 Mobile Gaming Studio</span>
+          </div>
+
+          <!-- FIX 1 : titre sémantique — or = nom de marque, pas mot aléatoire -->
+          <h1 class="hero-title">
+            <span>KNM Academy</span><br/>
+            Mobile Gaming Studio
+          </h1>
+
+          <!-- FIX 5 : sous-titre court + bullets au lieu d'un paragraphe dense -->
+          <p class="hero-tagline">Du code à Google Play — des jeux qui marquent.</p>
+          <ul class="hero-bullets">
+            <li>🎮 Multijoueur temps réel</li>
+            <li>🎨 Design premium &amp; animations fluides</li>
+            <li>🏆 Progression, missions &amp; boutique</li>
+          </ul>
+
+          <!-- FIX 7 : social proof — Google Play badge + rating -->
+          <div class="social-proof-row">
+            <div class="gplay-mockup">
+              <span class="gplay-icon">▶</span>
+              <div>
+                <div class="gplay-label">Disponible sur</div>
+                <div class="gplay-store">Google Play</div>
+              </div>
+            </div>
+            <div class="gplay-mockup">
+              <span class="gplay-icon" style="font-size:1rem;">📱</span>
+              <div>
+                <div class="gplay-label">Compatible</div>
+                <div class="gplay-store">Android 7.0+</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#apps" class="btn btn-primary">🚀 Voir nos applications</a>
+            <a href="support.html" class="btn btn-outline">Support</a>
+          </div>
+        </div>
+
+        <!-- FIX 2 & 3 : mockup contrasté + badges sortis du conteneur -->
+        <div class="hero-visual">
+          <div class="mockup-wrapper">
+            <div class="app-mockup">
+
+              <!-- Phone top notch -->
+              <div class="mockup-notch"></div>
+
+              <!-- Game screen content -->
+              <div class="mockup-screen">
+                <div class="mockup-screen-title">TCHEKCARD</div>
+                <div class="mockup-table">
+                  <!-- Opponent hand -->
+                  <div class="mockup-opp">
+                    <div class="mockup-card-back"></div>
+                    <div class="mockup-card-back"></div>
+                    <div class="mockup-card-back"></div>
+                  </div>
+                  <!-- Discard pile -->
+                  <div class="mockup-discard">
+                    <div class="mockup-card-face red">Q<br/>♥</div>
+                    <div class="mockup-pile-count">×39</div>
+                  </div>
+                  <!-- Player hand -->
+                  <div class="mockup-hand">
+                    <div class="mockup-card-face">7<br/>♠</div>
+                    <div class="mockup-card-face red">A<br/>♦</div>
+                    <div class="mockup-card-face">J<br/>♣</div>
+                    <div class="mockup-card-face red">3<br/>♥</div>
+                  </div>
+                </div>
+                <!-- TCHEK button -->
+                <div class="mockup-tchek">TCHEK</div>
+              </div>
+
+            </div>
+            <!-- FIX 3 : badges OUTSIDE mockup → plus d'overflow -->
+            <span class="floating-badge top-right">Multijoueur</span>
+            <span class="floating-badge bottom-left">1 vs 4</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Stats strip ────────────────────────────────────────────────────── -->
+  <div class="stats-strip">
+    <div class="container">
+      <div class="stats-grid">
+        <div>
+          <div class="stat-num gold">2025</div>
+          <div class="stat-label">Lancé en</div>
+        </div>
+        <div>
+          <div class="stat-num gold">4+</div>
+          <div class="stat-label">Modes de jeu</div>
+        </div>
+        <div>
+          <div class="stat-num gold">Android</div>
+          <div class="stat-label">Plateforme</div>
+        </div>
+        <div>
+          <div class="stat-num gold">1vs4</div>
+          <div class="stat-label">Mode signature</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Apps ───────────────────────────────────────────────────────────── -->
+  <section class="section" id="apps">
+    <div class="container">
+      <div class="section-header">
+        <p class="sub" style="font-size:.85rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;">Nos Applications</p>
+        <h2 class="section-title">Disponibles sur <span class="gold">Google Play</span></h2>
+        <p class="section-sub">1 application disponible · Android · Google Play</p>
+      </div>
+      <div class="apps-grid">
+
+        <!-- TchekCard -->
+        <div class="app-card">
+          <div class="app-card-banner tchekcard-banner">
+            <div class="mini-hand">
+              <div class="mini-card-face" style="--r:-10deg">7<br/>♠</div>
+              <div class="mini-card-face red" style="--r:-3deg">A<br/>♦</div>
+              <div class="mini-card-face" style="--r:6deg">J<br/>♣</div>
+              <div class="mini-card-face red" style="--r:14deg">3<br/>♥</div>
+            </div>
+          </div>
+          <div class="app-card-body">
+            <div class="app-card-header">
+              <div>
+                <div class="app-name">TchekCard</div>
+                <div class="app-genre">Jeu de cartes stratégique</div>
+              </div>
+              <span class="badge badge-gold">Nouveau</span>
+            </div>
+            <p class="app-desc">
+              Jeu de cartes multijoueur en temps réel. Affrontez des IA ou d'autres joueurs
+              en 1v1, 1v2, 1v3 ou 1v4. Annoncez TCHEK au bon moment pour gagner !
+            </p>
+            <div class="app-tags">
+              <span class="app-tag">Stratégie</span>
+              <span class="app-tag">Multijoueur</span>
+              <span class="app-tag">Solo</span>
+              <span class="app-tag">Cartes</span>
+              <span class="app-tag">Android</span>
+            </div>
+            <div class="app-card-footer">
+              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
+                <span class="badge badge-green">✓ Gratuit</span>
+                <span class="badge badge-cyan">In-app optionnel</span>
+              </div>
+              <a href="#" class="play-store-btn play-store-full">
+                <span class="gp-arrow">▶</span>
+                <div>
+                  <div class="gp-sub">Télécharger sur</div>
+                  <div class="gp-main">Google Play</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coming soon -->
+        <div class="app-card coming-soon-card">
+          <div class="app-card-banner coming-banner">
+            <div class="mystery-hand">
+              <div class="mystery-card-back"></div>
+              <div class="mystery-card-back"></div>
+              <div class="mystery-card-back"></div>
+            </div>
+            <div class="mystery-label">?</div>
+          </div>
+          <div class="app-card-body">
+            <div class="app-card-header">
+              <div>
+                <div class="app-name">Prochain projet</div>
+                <div class="app-genre">KNM Academy</div>
+              </div>
+              <span class="badge badge-gold">Bientôt</span>
+            </div>
+            <p class="app-desc">
+              Quelque chose arrive. Notre prochain jeu est en cours de conception —
+              design, gameplay, et quelques surprises.
+            </p>
+            <div class="app-card-footer">
+              <a href="mailto:kmnacademy50@gmail.com?subject=Notification — Prochain jeu KNM Academy" class="notify-btn">
+                🔔 M'avertir au lancement →
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ──────────────────────────────────────────────────────────── -->
+  <section class="section" id="about" style="padding-top:64px;background:rgba(255,215,0,.02);border-top:1px solid rgba(255,215,0,.06);border-bottom:1px solid rgba(255,215,0,.06);">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="dev-card">
+            <div class="dev-avatar">🎴</div>
+            <div class="dev-name">KNM Academy</div>
+            <div class="dev-role">Mobile Game Developer · Android</div>
+            <div class="dev-bio">Fondateur &amp; développeur solo</div>
+            <div class="dev-skills">
+              <span class="skill-tag">Kotlin</span>
+              <span class="skill-tag">Jetpack Compose</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">UI/UX</span>
+              <span class="skill-tag">Android</span>
+              <span class="skill-tag">Game Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="sub" style="font-size:.85rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">À propos</p>
+          <h2 class="section-title">Passionné de <span class="gold" style="white-space:nowrap;">mobile gaming</span></h2>
+          <p style="color:var(--text-sub);font-size:1rem;line-height:1.8;margin:16px 0;">
+            KNM Academy est un studio indépendant spécialisé dans les applications mobiles Android premium.
+            Chaque projet est conçu avec une attention particulière au design, à la fluidité et à l'expérience joueur.
+          </p>
+          <p style="color:var(--text-sub);font-size:1rem;line-height:1.8;margin-bottom:24px;">
+            Notre objectif : des expériences qui rivalisent avec les grandes productions, accessibles à tous.
+          </p>
+          <ul class="feature-list">
+            <li>Design dark premium &amp; animations fluides</li>
+            <li>Multijoueur temps réel via Firebase</li>
+            <li>Progression, missions et boutique in-app</li>
+            <li>Support actif et mises à jour régulières</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA / Contact ──────────────────────────────────────────────────── -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <p class="sub" style="font-size:.85rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">Contact</p>
+      <h2 class="cta-title">Une question ? <span class="gold">Écrivez-nous.</span></h2>
+      <p class="cta-desc">Support, bug, partenariat ou suggestion — réponse sous 48h.</p>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+        <a href="mailto:kmnacademy50@gmail.com" class="btn btn-primary">✉️ kmnacademy50@gmail.com</a>
+        <a href="support.html" class="btn btn-outline">Centre d'aide →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom:12px;display:inline-flex;">
+            <div class="logo-icon">🎴</div>
+            KNM Academy
+          </a>
+          <p>Studio Android indépendant. Des jeux premium conçus avec passion, accessibles à tous.</p>
+          <div class="footer-social">
+            <a href="https://github.com/mkamdem" class="social-link" aria-label="GitHub" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/mkamdem" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Applications</h4>
+          <ul>
+            <li><a href="#apps">TchekCard</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Légal &amp; Support</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Politique de confidentialité</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="mailto:kmnacademy50@gmail.com">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 KNM Academy · mkamdem.dev · Tous droits réservés</span>
+        <span>Fait avec ❤️ pour Android</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').style.background =
+        window.scrollY > 40 ? 'rgba(8,8,8,.97)' : 'rgba(8,8,8,.85)';
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+  </script>
+</body>
+</html>
