@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Politique de confidentialité — KNM Academy</title>
-  <meta name="description" content="Politique de confidentialité de KNM Academy et de l'application TchekCard." />
+  <meta name="description" data-i18n-attr="content:pp.desc" content="Politique de confidentialité de KNM Academy et de l'application TchekCard." />
   <meta name="theme-color" content="#080808" />
-  <meta property="og:title" content="Politique de confidentialité — KNM Academy" />
-  <meta property="og:description" content="Politique de confidentialité de KNM Academy et de l'application TchekCard." />
+  <meta property="og:title" data-i18n-attr="content:pp.title" content="Politique de confidentialité — KNM Academy" />
+  <meta property="og:description" data-i18n-attr="content:pp.desc" content="Politique de confidentialité de KNM Academy et de l'application TchekCard." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://knm-academy.github.io/KNM-Academy/privacy-policy.html" />
   <meta property="og:image" content="https://knm-academy.github.io/KNM-Academy/og-image.png" />
@@ -24,7 +24,7 @@
     @media (max-width: 540px) { .toc-list { columns: 1; } }
   </style>
 </head>
-<body>
+<body data-title-key="pp.title">
 
   <!-- Navigation -->
   <nav id="navbar">
@@ -33,23 +33,30 @@
         <div class="logo-icon" style="background:none;box-shadow:0 0 16px rgba(255,215,0,.3);overflow:hidden;padding:0;"><img src="logo.png" alt="KNM Academy" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
         KNM Academy
       </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html#apps">Applications</a></li>
-        <li><a href="index.html#about">À propos</a></li>
-        <li><a href="support.html">Support</a></li>
-        <li><a href="privacy-policy.html" class="active">Confidentialité</a></li>
-        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
-      </ul>
-      <div class="nav-hamburger" id="hamburger"><span></span><span></span><span></span></div>
+      <div class="nav-right">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html#apps" data-i18n="nav.apps">Applications</a></li>
+          <li><a href="index.html#about" data-i18n="nav.about">À propos</a></li>
+          <li><a href="support.html" data-i18n="nav.support">Support</a></li>
+          <li><a href="privacy-policy.html" class="active" data-i18n="nav.privacy">Confidentialité</a></li>
+          <li><a href="index.html#contact" class="nav-cta" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="lang-switch" role="group" aria-label="Language / Langue / Sprache">
+          <button type="button" class="lang-btn" data-lang="fr">FR</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="de">DE</button>
+        </div>
+        <div class="nav-hamburger" id="hamburger"><span></span><span></span><span></span></div>
+      </div>
     </div>
   </nav>
 
   <!-- Page hero -->
   <div class="page-hero">
     <div class="container">
-      <span class="badge badge-gold" style="margin-bottom:16px;display:inline-block;">Légal</span>
-      <h1>Politique de <span class="gold">confidentialité</span></h1>
-      <p>Applicable à toutes les applications KNM Academy — Dernière mise à jour : 15 juin 2026</p>
+      <span class="badge badge-gold" style="margin-bottom:16px;display:inline-block;" data-i18n="pp.badge">Légal</span>
+      <h1 data-i18n="pp.h1">Politique de <span class="gold">confidentialité</span></h1>
+      <p data-i18n="pp.updated">Applicable à toutes les applications KNM Academy — Dernière mise à jour : 15 juin 2026</p>
     </div>
   </div>
 
@@ -57,7 +64,7 @@
   <div class="prose">
 
     <div class="info-box">
-      <p>
+      <p data-i18n="pp.summary">
         <strong>Résumé :</strong> KNM Academy ne vend pas vos données personnelles.
         Nous ne collectons que les informations strictement nécessaires au fonctionnement de l'application.
         Vous pouvez demander la suppression de vos données à tout moment.
@@ -65,8 +72,8 @@
     </div>
 
     <div class="toc-box">
-      <p class="toc-title">Sommaire</p>
-      <ol class="toc-list">
+      <p class="toc-title" data-i18n="pp.tocTitle">Sommaire</p>
+      <ol class="toc-list" data-i18n="pp.toc">
         <li><a href="#section-1">Qui sommes-nous ?</a></li>
         <li><a href="#section-2">Champ d'application</a></li>
         <li><a href="#section-3">Données collectées</a></li>
@@ -81,255 +88,62 @@
       </ol>
     </div>
 
-    <h2 id="section-1">1. Qui sommes-nous ?</h2>
-    <p>
-      KNM Academy est un studio de développement d'applications mobiles indépendant.
-      Nous développons et publions des applications Android sur Google Play Store.
-    </p>
-    <p><strong>Contact :</strong> <a href="mailto:kmnacademy50@gmail.com">kmnacademy50@gmail.com</a></p>
-    <p><strong>Site web :</strong> <a href="https://knm-academy.github.io/KNM-Academy/">knm-academy.github.io/KNM-Academy</a></p>
-    <p><strong>Code source :</strong> <a href="https://github.com/KNM-Academy" target="_blank" rel="noopener">github.com/KNM-Academy</a></p>
+    <h2 id="section-1" data-i18n="pp.s1t">1. Qui sommes-nous ?</h2>
+    <div data-i18n="pp.s1b">
+      <p>KNM Academy est un studio de développement d'applications mobiles indépendant.</p>
+    </div>
 
-    <h2 id="section-2">2. Champ d'application</h2>
-    <p>
-      Cette politique de confidentialité s'applique à l'ensemble des applications publiées par KNM Academy,
-      notamment <strong>TchekCard</strong>, et à ce site web.
-    </p>
+    <h2 id="section-2" data-i18n="pp.s2t">2. Champ d'application</h2>
+    <div data-i18n="pp.s2b">
+      <p>Cette politique s'applique à l'ensemble des applications publiées par KNM Academy.</p>
+    </div>
 
-    <h2 id="section-3">3. Données collectées</h2>
+    <h2 id="section-3" data-i18n="pp.s3t">3. Données collectées</h2>
+    <div data-i18n="pp.s3b">
+      <p>Données d'identification, de jeu, de progression, achats, publicités, statistiques et diagnostic.</p>
+    </div>
 
-    <h3>3.1 Données d'identification (optionnelles)</h3>
-    <p>
-      Si vous choisissez de vous connecter avec votre compte Google (fonctionnalité optionnelle),
-      nous accédons aux informations suivantes via <strong>Google Sign-In</strong> :
-    </p>
-    <ul>
-      <li>Nom d'affichage (pseudo Google)</li>
-      <li>Adresse e-mail</li>
-      <li>Photo de profil (URL publique)</li>
-      <li>Identifiant Google unique (pour vous identifier dans les parties multijoueur)</li>
-    </ul>
-    <p>
-      Ces données sont utilisées <strong>uniquement</strong> pour afficher votre profil dans l'application
-      et vous identifier dans les sessions multijoueur. Elles ne sont pas partagées avec des tiers.
-    </p>
+    <h2 id="section-4" data-i18n="pp.s4t">4. Finalités du traitement</h2>
+    <div data-i18n="pp.s4b">
+      <p>Nous utilisons vos données pour faire fonctionner l'application et répondre à vos demandes.</p>
+    </div>
 
-    <h3>3.2 Données de jeu</h3>
-    <p>
-      Dans le cadre du mode multijoueur, les données suivantes sont transmises et stockées
-      via <strong>Firebase Realtime Database</strong> (Google, hébergé en europe-west1) :
-    </p>
-    <ul>
-      <li>Votre identifiant de joueur (pseudonyme)</li>
-      <li>État de la partie en cours (cartes jouées, score, tour)</li>
-      <li>Résultats des parties (victoires/défaites)</li>
-    </ul>
-    <p>
-      Ces données sont temporaires et liées aux sessions de jeu. Elles ne contiennent
-      aucune information personnelle sensible.
-    </p>
+    <h2 id="section-5" data-i18n="pp.s5t">5. Partage des données</h2>
+    <div data-i18n="pp.s5b">
+      <p>Nous ne vendons ni ne louons vos données personnelles.</p>
+    </div>
 
-    <h3>3.3 Données de progression (stockage local)</h3>
-    <p>
-      Votre progression dans l'application (niveau, XP, pièces, diamants, missions, skins débloqués,
-      préférences de son/musique/vibration) est stockée <strong>localement</strong> sur votre appareil
-      via Android DataStore et SharedPreferences.
-      Ces données ne quittent pas votre appareil sauf dans le cadre du mode multijoueur.
-    </p>
+    <h2 id="section-6" data-i18n="pp.s6t">6. Conservation des données</h2>
+    <div data-i18n="pp.s6b">
+      <p>Chaque catégorie de données a sa propre durée de conservation.</p>
+    </div>
 
-    <h3>3.4 Achats intégrés</h3>
-    <p>
-      Les achats in-app sont gérés par <strong>Google Play Billing</strong>.
-      KNM Academy ne collecte ni ne stocke vos informations de paiement.
-      Toutes les transactions sont traitées directement par Google selon leur politique de confidentialité :
-      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
-    </p>
+    <h2 id="section-7" data-i18n="pp.s7t">7. Vos droits (RGPD)</h2>
+    <div data-i18n="pp.s7b">
+      <p>Accès, rectification, effacement, opposition et portabilité.</p>
+    </div>
 
-    <h3>3.5 Publicités (Google AdMob)</h3>
-    <p>
-      TchekCard utilise <strong>Google AdMob</strong> pour afficher des publicités, notamment
-      des annonces vidéo récompensées (regarder une publicité pour obtenir des pièces) et
-      des annonces interstitielles (entre les parties).
-    </p>
-    <p>
-      AdMob peut collecter les données suivantes pour diffuser des publicités pertinentes :
-    </p>
-    <ul>
-      <li>Identifiant publicitaire Android (GAID / Advertising ID)</li>
-      <li>Adresse IP et données de réseau</li>
-      <li>Interactions avec les publicités (clics, vues)</li>
-    </ul>
-    <p>
-      <strong>Consentement (RGPD) :</strong> si vous résidez dans l'Espace Économique Européen,
-      au Royaume-Uni ou en Suisse, un écran de consentement officiel Google (UMP) vous est
-      présenté au premier lancement. Vous pouvez accepter, refuser ou personnaliser le partage
-      de vos données publicitaires sans perdre l'accès au jeu.
-    </p>
-    <p>
-      Vous pouvez à tout moment désactiver la personnalisation des publicités dans les
-      paramètres de votre appareil Android : <em>Paramètres → Google → Publicités → Désactiver
-      la personnalisation</em>. La politique de confidentialité de Google AdMob est disponible à :
-      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
-    </p>
+    <h2 id="section-8" data-i18n="pp.s8t">8. Protection des données</h2>
+    <div data-i18n="pp.s8b">
+      <p>Les communications avec Firebase sont chiffrées via TLS/HTTPS.</p>
+    </div>
 
-    <h3>3.6 Statistiques d'usage (Firebase Analytics)</h3>
-    <p>
-      TchekCard utilise <strong>Firebase Analytics</strong> pour collecter des statistiques
-      anonymisées d'utilisation, dans le seul but d'améliorer l'expérience de jeu. Aucune donnée
-      n'est rattachée à votre identité réelle.
-    </p>
-    <p>Les événements suivants sont collectés :</p>
-    <ul>
-      <li>Début et fin de partie (mode joué, durée, résultat, nombre de tours)</li>
-      <li>Tentatives d'achat in-app (sans les informations de paiement)</li>
-      <li>Visionnage de publicités récompensées</li>
-      <li>Progression dans le tutoriel</li>
-      <li>Cartes jouées (type de carte, sans contexte personnel)</li>
-      <li>Connexions quotidiennes et progression de série (streak)</li>
-      <li>Temps d'attente en matchmaking</li>
-    </ul>
-    <p>
-      Firebase collecte également des métadonnées techniques automatiques (modèle d'appareil,
-      version Android, langue, pays approximatif). Ces données sont conservées 14 mois maximum
-      selon la politique Firebase Analytics.
-    </p>
+    <h2 id="section-9" data-i18n="pp.s9t">9. Confidentialité des enfants</h2>
+    <div data-i18n="pp.s9b">
+      <p>TchekCard est destiné à un public de 12 ans et plus.</p>
+    </div>
 
-    <h3>3.7 Diagnostic des plantages (Firebase Crashlytics)</h3>
-    <p>
-      En cas de plantage de l'application, <strong>Firebase Crashlytics</strong> collecte
-      automatiquement des données techniques pour nous permettre de corriger les bugs :
-    </p>
-    <ul>
-      <li>Trace technique de l'erreur (stack trace)</li>
-      <li>État de l'appareil au moment du plantage (mémoire, version OS, modèle)</li>
-      <li>Identifiant d'installation anonyme (Firebase Installation ID)</li>
-    </ul>
-    <p>
-      Aucune donnée personnelle identifiante n'est transmise. Les rapports de crash sont
-      conservés 90 jours puis supprimés automatiquement.
-    </p>
+    <h2 id="section-10" data-i18n="pp.s10t">10. Modifications de cette politique</h2>
+    <div data-i18n="pp.s10b">
+      <p>Nous pouvons mettre à jour cette politique de confidentialité à tout moment.</p>
+    </div>
 
-    <h3>3.8 Données techniques additionnelles</h3>
-    <p>
-      Firebase peut collecter automatiquement certaines données techniques minimales pour
-      assurer le bon fonctionnement des services (identifiant d'instance Firebase, logs réseau).
-    </p>
-
-    <h2 id="section-4">4. Finalités du traitement</h2>
-    <p>Nous utilisons vos données aux fins suivantes :</p>
-    <ul>
-      <li>Vous identifier dans les parties multijoueur en temps réel</li>
-      <li>Sauvegarder et synchroniser votre progression de jeu</li>
-      <li>Traiter vos achats intégrés (délégué à Google Play)</li>
-      <li>Assurer le bon fonctionnement et la sécurité des services</li>
-      <li>Répondre à vos demandes de support</li>
-    </ul>
-    <p>
-      <strong>KNM Academy</strong> n'exploite pas elle-même vos données à des fins de profilage
-      ou de marketing. La diffusion de publicités personnalisées est assurée par
-      <strong>Google AdMob</strong>, un tiers indépendant, selon votre consentement
-      (voir section 3.5).
-    </p>
-
-    <h2 id="section-5">5. Partage des données</h2>
-    <p>
-      Nous ne vendons ni ne louons vos données personnelles. On distingue deux types de transferts :
-    </p>
-
-    <h3>5.1 Sous-traitants (traitement pour notre compte)</h3>
-    <p>
-      Les services suivants traitent des données <strong>pour le compte de KNM Academy</strong>,
-      ce qui correspond à une <strong>collecte</strong> et non à un partage avec un tiers indépendant :
-    </p>
-    <ul>
-      <li><strong>Google / Firebase</strong> : hébergement multijoueur (Realtime Database), authentification (Auth), statistiques anonymisées (Analytics) et diagnostic des plantages (Crashlytics)</li>
-      <li><strong>Google Play Billing</strong> : traitement des achats intégrés</li>
-    </ul>
-    <p>
-      Firebase est soumis à la politique de confidentialité de Google :
-      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>.
-    </p>
-
-    <h3>5.2 Partage avec des tiers indépendants</h3>
-    <p>
-      <strong>Google AdMob</strong> agit en tant que tiers indépendant pour la diffusion de
-      publicités. Selon votre consentement (voir section 3.5), certaines données
-      (identifiant publicitaire, adresse IP, interactions avec les publicités) sont
-      <strong>partagées</strong> avec AdMob à des fins de publicité personnalisée.
-    </p>
-    <p>
-      Nous pouvons également partager des données si la loi nous y oblige.
-    </p>
-
-    <h2 id="section-6">6. Conservation des données</h2>
-    <ul>
-      <li><strong>Données de compte Google</strong> : conservées tant que vous utilisez l'application. Supprimées sur demande.</li>
-      <li><strong>Données multijoueur</strong> : les données de session sont supprimées à la fin de chaque partie.</li>
-      <li><strong>Statistiques d'usage (Firebase Analytics)</strong> : 14 mois maximum.</li>
-      <li><strong>Rapports de plantage (Firebase Crashlytics)</strong> : 90 jours.</li>
-      <li><strong>Données locales</strong> : supprimées lorsque vous désinstallez l'application.</li>
-      <li><strong>Historique d'achat</strong> : conservé par Google Play Billing selon sa propre politique.</li>
-    </ul>
-
-    <h2 id="section-7">7. Vos droits (RGPD)</h2>
-    <p>
-      Si vous résidez dans l'Union européenne ou en France, vous disposez des droits suivants
-      concernant vos données personnelles :
-    </p>
-    <ul>
-      <li><strong>Droit d'accès</strong> : obtenir une copie de vos données</li>
-      <li><strong>Droit de rectification</strong> : corriger des données inexactes</li>
-      <li><strong>Droit à l'effacement</strong> : demander la suppression de vos données</li>
-      <li><strong>Droit d'opposition</strong> : vous opposer à certains traitements</li>
-      <li><strong>Droit à la portabilité</strong> : recevoir vos données dans un format lisible</li>
-    </ul>
-    <p>
-      Pour exercer ces droits, contactez-nous à :
-      <a href="mailto:kmnacademy50@gmail.com">kmnacademy50@gmail.com</a>
-    </p>
-    <p>
-      Vous avez également le droit d'introduire une réclamation auprès de la CNIL :
-      <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>.
-    </p>
-
-    <h2 id="section-8">8. Protection des données</h2>
-    <p>
-      Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger
-      vos données contre tout accès non autorisé, modification, divulgation ou destruction.
-      Les communications avec Firebase sont chiffrées via TLS/HTTPS.
-    </p>
-
-    <h2 id="section-9">9. Confidentialité des enfants</h2>
-    <p>
-      TchekCard est destiné à un public de 12 ans et plus (classification PEGI 12 — descripteur
-      "Simulated Gambling" en raison du système de mise compétitive avec monnaie virtuelle).
-      L'application n'est pas conçue pour les enfants de moins de 13 ans et nous ne collectons
-      pas sciemment de données personnelles auprès d'eux.
-    </p>
-    <p>
-      Le système de mise multijoueur utilise exclusivement de la monnaie virtuelle interne
-      (coins) qui n'a aucune valeur réelle, ne peut être convertie en argent réel et ne peut
-      être échangée contre des biens ou services hors de l'application.
-    </p>
-    <p>
-      Si vous êtes parent et pensez que votre enfant nous a fourni des données personnelles,
-      contactez-nous à <a href="mailto:kmnacademy50@gmail.com">kmnacademy50@gmail.com</a> pour en demander
-      la suppression immédiate.
-    </p>
-
-    <h2 id="section-10">10. Modifications de cette politique</h2>
-    <p>
-      Nous pouvons mettre à jour cette politique de confidentialité à tout moment.
-      La date de "dernière mise à jour" en haut de cette page indique la version en vigueur.
-      Nous vous encourageons à consulter cette page régulièrement pour rester informé des éventuelles modifications.
-    </p>
-
-    <h2 id="section-11">11. Contact</h2>
-    <p>
-      Pour toute question concernant cette politique de confidentialité ou le traitement de vos données :
-    </p>
+    <h2 id="section-11" data-i18n="pp.s11t">11. Contact</h2>
+    <div data-i18n="pp.s11b">
+      <p>Pour toute question concernant cette politique de confidentialité :</p>
+    </div>
     <div class="info-box">
-      <p>
+      <p data-i18n="pp.s11box">
         <strong>E-mail :</strong> <a href="mailto:kmnacademy50@gmail.com">kmnacademy50@gmail.com</a><br/>
         <strong>Site web :</strong> <a href="https://knm-academy.github.io/KNM-Academy/">knm-academy.github.io/KNM-Academy</a><br/>
         <strong>Studio :</strong> KNM Academy
@@ -342,16 +156,18 @@
   <footer>
     <div class="container">
       <div class="footer-bottom">
-        <span>© 2026 KNM Academy</span>
+        <span data-i18n="footer.short">© 2026 KNM Academy</span>
         <span>
-          <a href="index.html">Accueil</a> ·
-          <a href="support.html">Support</a> ·
-          <a href="mailto:kmnacademy50@gmail.com">Contact</a>
+          <a href="index.html" data-i18n="footer.home">Accueil</a> ·
+          <a href="support.html" data-i18n="footer.support">Support</a> ·
+          <a href="delete-account.html" data-i18n="footer.delete">Suppression de compte</a> ·
+          <a href="mailto:kmnacademy50@gmail.com" data-i18n="footer.contact">Contact</a>
         </span>
       </div>
     </div>
   </footer>
 
+  <script src="i18n.js"></script>
   <script>
     document.getElementById('hamburger').addEventListener('click', () => {
       document.getElementById('navLinks').classList.toggle('open');

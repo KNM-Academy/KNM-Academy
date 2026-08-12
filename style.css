@@ -981,6 +981,42 @@ footer {
 .contact-card h3 { font-size: 1.3rem; font-weight: 800; margin-bottom: 8px; }
 .contact-card p { color: var(--text-sub); margin-bottom: 24px; }
 
+/* ── Sélecteur de langue ──────────────────────────────────────────────────── */
+/* Hors de .nav-links : reste visible sur mobile, où le menu se replie. */
+.nav-right { display: flex; align-items: center; gap: 24px; }
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid rgba(255,215,0,.18);
+  border-radius: 999px;
+  background: rgba(255,215,0,.04);
+}
+
+.lang-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--text-sub);
+  font-family: inherit;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background .2s, color .2s;
+}
+.lang-btn:hover { color: var(--gold); }
+.lang-btn.active {
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  color: #000;
+}
+.lang-btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
 /* ── Responsive ───────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
   .hero-grid, .about-grid { grid-template-columns: 1fr; gap: 48px; }
@@ -1010,4 +1046,6 @@ footer {
   .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
   .hero-actions { flex-direction: column; }
   .btn { justify-content: center; }
+  .nav-right { gap: 12px; }
+  .lang-btn { padding: 5px 8px; font-size: .68rem; }
 }
