@@ -156,7 +156,7 @@ const I18N = {
     'pp.desc': "Politique de confidentialité de KNM Academy et de l'application TchekCard.",
     'pp.badge': 'Légal',
     'pp.h1': 'Politique de <span class="gold">confidentialité</span>',
-    'pp.updated': 'Applicable à toutes les applications KNM Academy — Dernière mise à jour : 15 juin 2026',
+    'pp.updated': 'Applicable à toutes les applications KNM Academy — Dernière mise à jour : 13 août 2026',
     'pp.summary': '<strong>Résumé :</strong> KNM Academy ne vend pas vos données personnelles. Nous ne collectons que les informations strictement nécessaires au fonctionnement de l’application. Vous pouvez demander la suppression de vos données à tout moment.',
     'pp.tocTitle': 'Sommaire',
     'pp.toc': '<li><a href="#section-1">Qui sommes-nous ?</a></li><li><a href="#section-2">Champ d’application</a></li><li><a href="#section-3">Données collectées</a></li><li><a href="#section-4">Finalités du traitement</a></li><li><a href="#section-5">Partage des données</a></li><li><a href="#section-6">Conservation des données</a></li><li><a href="#section-7">Vos droits (RGPD)</a></li><li><a href="#section-8">Protection des données</a></li><li><a href="#section-9">Confidentialité des enfants</a></li><li><a href="#section-10">Modifications de cette politique</a></li><li><a href="#section-11">Contact</a></li>',
@@ -186,7 +186,7 @@ const I18N = {
     'pp.s8b': '<p>Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre tout accès non autorisé, modification, divulgation ou destruction. Les communications avec Firebase sont chiffrées via TLS/HTTPS.</p>',
 
     'pp.s9t': '9. Confidentialité des enfants',
-    'pp.s9b': '<p>TchekCard est destiné à un public de 12 ans et plus (classification PEGI 12 — descripteur « Simulated Gambling » en raison du système de mise compétitive avec monnaie virtuelle). L’application n’est pas conçue pour les enfants de moins de 13 ans et nous ne collectons pas sciemment de données personnelles auprès d’eux.</p><p>Le système de mise multijoueur utilise exclusivement de la monnaie virtuelle interne (pièces) qui n’a aucune valeur réelle, ne peut être convertie en argent réel et ne peut être échangée contre des biens ou services hors de l’application.</p><p>Si vous êtes parent et pensez que votre enfant nous a fourni des données personnelles, contactez-nous à <a href="mailto:' + MAIL + '">' + MAIL + '</a> pour en demander la suppression immédiate.</p>',
+    'pp.s9b': '<p>TchekCard n’est pas conçu pour les enfants de moins de 13 ans et nous ne collectons pas sciemment de données personnelles auprès d’eux.</p><p>La classification par âge de l’application est attribuée par les organismes membres de l’IARC et <strong>varie selon les territoires</strong> : celle qui vous concerne est affichée sur la fiche Google Play de votre pays. Certains territoires appliquent un descripteur « jeux d’argent simulés » en raison du système de mise compétitive décrit ci-dessous.</p><p>Ce système utilise exclusivement de la monnaie virtuelle interne (pièces) qui n’a aucune valeur réelle, ne peut être convertie en argent réel et ne peut être échangée contre des biens ou services hors de l’application.</p><p>Si vous êtes parent et pensez que votre enfant nous a fourni des données personnelles, contactez-nous à <a href="mailto:' + MAIL + '">' + MAIL + '</a> pour en demander la suppression immédiate.</p>',
 
     'pp.s10t': '10. Modifications de cette politique',
     'pp.s10b': '<p>Nous pouvons mettre à jour cette politique de confidentialité à tout moment. La date de « dernière mise à jour » en haut de cette page indique la version en vigueur. Nous vous encourageons à consulter cette page régulièrement pour rester informé des éventuelles modifications.</p>',
@@ -349,7 +349,7 @@ const I18N = {
     'pp.desc': 'Privacy policy for KNM Academy and the TchekCard app.',
     'pp.badge': 'Legal',
     'pp.h1': '<span class="gold">Privacy</span> Policy',
-    'pp.updated': 'Applies to all KNM Academy apps — Last updated: 15 June 2026',
+    'pp.updated': 'Applies to all KNM Academy apps — Last updated: 13 August 2026',
     'pp.summary': '<strong>Summary:</strong> KNM Academy does not sell your personal data. We only collect the information strictly necessary for the app to work. You can request deletion of your data at any time.',
     'pp.tocTitle': 'Contents',
     'pp.toc': '<li><a href="#section-1">Who we are</a></li><li><a href="#section-2">Scope</a></li><li><a href="#section-3">Data we collect</a></li><li><a href="#section-4">Purposes of processing</a></li><li><a href="#section-5">Data sharing</a></li><li><a href="#section-6">Data retention</a></li><li><a href="#section-7">Your rights (GDPR)</a></li><li><a href="#section-8">Data protection</a></li><li><a href="#section-9">Children’s privacy</a></li><li><a href="#section-10">Changes to this policy</a></li><li><a href="#section-11">Contact</a></li>',
@@ -379,7 +379,7 @@ const I18N = {
     'pp.s8b': '<p>We implement appropriate technical and organisational measures to protect your data against unauthorised access, alteration, disclosure or destruction. Communications with Firebase are encrypted via TLS/HTTPS.</p>',
 
     'pp.s9t': '9. Children’s privacy',
-    'pp.s9b': '<p>TchekCard is intended for players aged 12 and over (PEGI 12 rating — "Simulated Gambling" descriptor, due to the competitive staking system using virtual currency). The app is not designed for children under 13 and we do not knowingly collect personal data from them.</p><p>The multiplayer staking system uses exclusively internal virtual currency (coins) which has no real-world value, cannot be converted into real money and cannot be exchanged for goods or services outside the app.</p><p>If you are a parent and believe your child has provided us with personal data, contact us at <a href="mailto:' + MAIL + '">' + MAIL + '</a> to request its immediate deletion.</p>',
+    'pp.s9b': '<p>TchekCard is not designed for children under 13 and we do not knowingly collect personal data from them.</p><p>The app\'s age rating is assigned by the IARC member bodies and <strong>varies by territory</strong>: the one that applies to you is shown on the Google Play listing for your country. Some territories apply a "simulated gambling" descriptor because of the competitive staking system described below.</p><p>That system uses exclusively internal virtual currency (coins) which has no real-world value, cannot be converted into real money and cannot be exchanged for goods or services outside the app.</p><p>If you are a parent and believe your child has provided us with personal data, contact us at <a href="mailto:' + MAIL + '">' + MAIL + '</a> to request its immediate deletion.</p>',
 
     'pp.s10t': '10. Changes to this policy',
     'pp.s10b': '<p>We may update this privacy policy at any time. The "last updated" date at the top of this page indicates the version in force. We encourage you to check this page regularly to stay informed of any changes.</p>',
@@ -541,7 +541,7 @@ const I18N = {
     'pp.desc': 'Datenschutzerklärung von KNM Academy und der App TchekCard.',
     'pp.badge': 'Rechtliches',
     'pp.h1': '<span class="gold">Datenschutz</span>erklärung',
-    'pp.updated': 'Gültig für alle Apps von KNM Academy — Letzte Aktualisierung: 15. Juni 2026',
+    'pp.updated': 'Gültig für alle Apps von KNM Academy — Letzte Aktualisierung: 13. August 2026',
     'pp.summary': '<strong>Kurzfassung:</strong> KNM Academy verkauft deine personenbezogenen Daten nicht. Wir erheben nur die Informationen, die für den Betrieb der App zwingend erforderlich sind. Du kannst jederzeit die Löschung deiner Daten verlangen.',
     'pp.tocTitle': 'Inhalt',
     'pp.toc': '<li><a href="#section-1">Wer wir sind</a></li><li><a href="#section-2">Geltungsbereich</a></li><li><a href="#section-3">Erhobene Daten</a></li><li><a href="#section-4">Zwecke der Verarbeitung</a></li><li><a href="#section-5">Weitergabe von Daten</a></li><li><a href="#section-6">Speicherdauer</a></li><li><a href="#section-7">Deine Rechte (DSGVO)</a></li><li><a href="#section-8">Datensicherheit</a></li><li><a href="#section-9">Datenschutz für Kinder</a></li><li><a href="#section-10">Änderungen dieser Erklärung</a></li><li><a href="#section-11">Kontakt</a></li>',
@@ -571,7 +571,7 @@ const I18N = {
     'pp.s8b': '<p>Wir setzen geeignete technische und organisatorische Maßnahmen ein, um deine Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Zerstörung zu schützen. Die Kommunikation mit Firebase ist über TLS/HTTPS verschlüsselt.</p>',
 
     'pp.s9t': '9. Datenschutz für Kinder',
-    'pp.s9b': '<p>TchekCard richtet sich an ein Publikum ab 12 Jahren (Einstufung PEGI 12 — Deskriptor „Simulated Gambling“ aufgrund des kompetitiven Einsatzsystems mit virtueller Währung). Die App ist nicht für Kinder unter 13 Jahren konzipiert, und wir erheben wissentlich keine personenbezogenen Daten von ihnen.</p><p>Das Einsatzsystem im Multiplayer verwendet ausschließlich interne virtuelle Währung (Münzen). Diese hat keinen realen Wert, lässt sich nicht in echtes Geld umwandeln und kann außerhalb der App nicht gegen Waren oder Dienstleistungen eingetauscht werden.</p><p>Wenn du Elternteil bist und vermutest, dass dein Kind uns personenbezogene Daten übermittelt hat, wende dich an <a href="mailto:' + MAIL + '">' + MAIL + '</a>, um deren sofortige Löschung zu verlangen.</p>',
+    'pp.s9b': '<p>TchekCard ist nicht für Kinder unter 13 Jahren konzipiert, und wir erheben wissentlich keine personenbezogenen Daten von ihnen.</p><p>Die Alterseinstufung der App wird von den Mitgliedsorganisationen der IARC vergeben und <strong>unterscheidet sich je nach Region</strong>: die für dich geltende Einstufung steht auf der Google-Play-Seite deines Landes. Manche Regionen vergeben den Deskriptor „simuliertes Glücksspiel“ wegen des unten beschriebenen kompetitiven Einsatzsystems.</p><p>Dieses System verwendet ausschließlich interne virtuelle Währung (Münzen). Diese hat keinen realen Wert, lässt sich nicht in echtes Geld umwandeln und kann außerhalb der App nicht gegen Waren oder Dienstleistungen eingetauscht werden.</p><p>Wenn du Elternteil bist und vermutest, dass dein Kind uns personenbezogene Daten übermittelt hat, wende dich an <a href="mailto:' + MAIL + '">' + MAIL + '</a>, um deren sofortige Löschung zu verlangen.</p>',
 
     'pp.s10t': '10. Änderungen dieser Erklärung',
     'pp.s10b': '<p>Wir können diese Datenschutzerklärung jederzeit aktualisieren. Das Datum der „letzten Aktualisierung“ oben auf dieser Seite gibt die jeweils geltende Fassung an. Wir empfehlen dir, diese Seite regelmäßig aufzurufen, um über etwaige Änderungen informiert zu bleiben.</p>',
